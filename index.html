@@ -10,15 +10,32 @@
     <title>Validación de firma</title>
 </head>
 <body>
-    <form class="form" id="formulario">
-        <h2>VALIDA TU FIRMA</h2>
-        <p type="Nombre:" id="nombre"><input placeholder="Ingresa el nombre del documento aquí.."></input></p>
-        <p type="Mensaje:" id="contenido"><input placeholder="Ingresa tu mensaje aquí.."></input></p>
-        <p type="Firma:" id="firma"><input placeholder="Ingresa la firma digital aquí.."></input></p>
-        <button id="enviar"onclick="validar();" >Validar Firma digital</button>
-        <br><br><br>
-        <a href="https://nancydelcastilloaguirre.github.io/creacionfirma/" class="btn-fim">Crea tu firma aquí</a>
+    <div class="form">
+        <h2>Valida tu firma</h2>       
+        <hr>
+        <form id="formulario">
+
+            <p>Nombre</p>
+            <input  type="text" id="nombre" placeholder="Ingresa el nombre del documento aquí..">
+
+            <br><br>
+
+            <p>Mensaje</p>
+            <input  type="text" id="contenido" placeholder="Ingresa tu mensaje aquí..">
+
+            <br><br>
+
+            <p>Firma</p>
+            <input  type="text" id="firma" placeholder="Ingresa la firma digital aquí..">
+
+            <hr>
+
+            <button class="btn-fim" type="button" onclick="validar();" value="validar">Vallidar Firma Digital</button>
+        </form>
+
+        <a href="https://nancydelcastilloaguirre.github.io/creacionfirma/" class="btn-fim">Crear Firma Aqui..</a>
+    </div>
     </form>
-<script src="./js/script.js"></script>
+
 </body>
 </html>
