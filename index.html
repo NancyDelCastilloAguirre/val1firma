@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
     <link rel="stylesheet" href="./css/style.css">  
-    <script src="./js/script.js"></script>
+    <script src="./js/js.js"></script>
     <title>Validación de firma</title>
 </head>
 <body>
     <form class="form">
         <h2>VALIDA TU FIRMA</h2>
         <p type="Nombre:" id="nombre"><input placeholder="Ingresa el nombre del documento aquí.."></input></p>
-        <p type="Mensaje:" id="mensaje"><input placeholder="Ingresa tu mensaje aquí.."></input></p>
+        <p type="Mensaje:" id="contenido"><input placeholder="Ingresa tu mensaje aquí.."></input></p>
         <p type="Firma:" id="firma"><input placeholder="Ingresa la firma digital aquí.."></input></p>
         <button id="enviar"onclick="validar();" >Validar Firma digital</button>
         <br><br><br>
