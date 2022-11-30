@@ -19,8 +19,8 @@ function validar(){
     console.log(newid,newhash);
 
     if(newhash == firma){
-        alert("La fimra es valida");
+        alert("La fimra es valida :)");
     }else{
-        alert("La fimra no es valida");
+        alert("La firma no es valida :(");
     }
 }
